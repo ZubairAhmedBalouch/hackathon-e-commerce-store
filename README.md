@@ -1,37 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+***** Next.js Design Jam 2024 - E-commerce Store UI (Hackathon)******
+# Project Purpose:
+This project was developed as part of the UI/UX Hackathon - Next.js Design Jam 2024, conducted under GIAIC Quarter 2. The purpose of the hackathon was to create a pixel-perfect, responsive e-commerce store UI based on the assigned Figma template. The project demonstrates proficiency in building modern web interfaces using Next.js and Tailwind CSS, adhering to design principles and achieving responsiveness across devices.
 
-## Getting Started
+# Key Components Implemented:
+Header and Navigation Bar: Includes a responsive navigation menu with links to key sections.
+Hero Section: A visually appealing introductory section showcasing the store’s primary message.
+Product Grid: Displays products dynamically in a grid layout, ensuring responsiveness.
+Footer: Contains links to essential pages and social media icons.
+Responsiveness: The design adapts seamlessly to various screen sizes (desktop, tablet, and mobile).
+Figma Compliance: All sections follow the provided Figma design guidelines for pixel-perfect implementation.
 
-First, run the development server:
+# Steps to Run the Project Locally:
+To run the project on your local machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Clone the Repository: Start by cloning the project repository using Git. Navigate to the desired folder on your computer, open a terminal, and execute the git clone command followed by the repository link. Once cloned, move into the project directory using the cd command.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install Dependencies: Ensure you have Node.js and npm installed on your system. Inside the project directory, run npm install in the terminal to download and set up all the required dependencies for the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the Development Server: Use the command npm run dev to start the local development server. This will launch the project in development mode.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+View the Project in the Browser: Open your browser and go to http://localhost:3000. You can now view and interact with the project locally.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# hackathon-e-commerce-store" 
+Optional - Build for Production: If needed, you can build the project for production by running npm run build. Once built, start the production server using npm start. This will optimize the project for deployment.
