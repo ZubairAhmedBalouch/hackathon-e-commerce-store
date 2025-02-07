@@ -1,0 +1,16 @@
+Feature,Description,Test Case,Expected Result,Actual Result,Pass/Fail,Comments
+Homepage,Testing homepage load time and responsiveness,Page loads within 3 seconds on desktop,Page should load within 3 seconds,Page loaded in 2.8 seconds,Pass,Responsive design checked on multiple screen sizes
+Homepage,Testing homepage layout,All sections are visible on screen,"Hero, categories, and testimonial sections are visible",All sections appeared correctly,Pass,Sections appear in correct order and layout on desktop and mobile
+Product Page,Testing product images,Images load correctly when clicked,Images should load without delay,Images loaded instantly,Pass,No broken images or delays
+Product Page,Testing product information,"Product title, price, and description should be displayed",Product information should be visible on the product page,All product details visible as expected,Pass,Product details are rendered correctly for different products
+Cart,Testing add to cart functionality,Add product to cart and check cart item count,Cart item count increases by 1,Item count increased to 1,Pass,Successfully added item to cart
+Cart,Testing cart total,Total price of items in cart is correct,Cart total should match the price of added items,Cart total is correct,Pass,Verified with multiple items
+Checkout,Testing checkout process,Checkout page loads correctly with all necessary fields,"Checkout page should load with billing, shipping, and payment fields",Checkout page loaded successfully,Pass,All necessary fields present and correctly functioning
+Mobile Responsiveness,Testing mobile responsiveness,Page layout adjusts correctly on mobile screens,Layout should be responsive on screens below 768px,Layout adjusted correctly,Pass,Tested on multiple mobile devices
+SEO,Testing SEO optimization,SEO tags are present and correct,"Title, meta description, and keywords should be set correctly",SEO tags found and correct,Pass,SEO meta tags are correct for all pages
+Performance,Testing website performance metrics,First Contentful Paint should be under 2.5 seconds,First Contentful Paint under 2.5 seconds,First Contentful Paint at 0.9 seconds,Pass,"Performance score is 83, indicating good performance"
+Performance,Testing website performance metrics,Total Blocking Time should be under 200 ms,Total Blocking Time under 200 ms,Total Blocking Time at 130 ms,Pass,"Performance score is 83, indicating good performance"
+Performance,Testing website performance metrics,Speed Index should be under 4.3 seconds,Speed Index under 4.3 seconds,Speed Index at 2.6 seconds,Pass,"Performance score is 83, indicating good performance"
+Performance,Testing website performance metrics,Largest Contentful Paint should be under 4 seconds,Largest Contentful Paint under 4 seconds,Largest Contentful Paint at 4.6 seconds,Fail,"Performance score is 83, indicating room for improvement in this area"
+Accessibility,Testing website accessibility,Accessibility score should be above 90,Accessibility score above 90,Accessibility score at 88,Fail,"Accessibility score is 88, indicating some areas need improvement"
+Best Practices,Testing website best practices,Best Practices score should be 100,Best Practices score at 100,Best Practices score at 100,Pass,Best Practices score is perfect

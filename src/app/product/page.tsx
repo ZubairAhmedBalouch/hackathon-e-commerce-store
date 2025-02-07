@@ -11,8 +11,9 @@ const ProductPage = () => {
         <Header />
         <Hero />
         <Company />
-        <Footer />
         <Cards />
+        <Footer />
+        
     </div>
   )
 }
